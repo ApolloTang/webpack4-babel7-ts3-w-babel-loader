@@ -8,7 +8,7 @@ console.log('resolveMyExt2: ', resolveMyExt2)
 import somets from './somets';
 console.log('somets: ', somets)
 
-// import somejs from './somejs.js';
+import somejs from './somejs.js';
 console.log('somejs: ', somejs())
 
 
