@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es2015",
+    "module": "es2015",
+
+    "strict": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+
+    "declaration": true,
+    "declarationDir": "dist/types",
+
+    "lib": [
+       "dom",
+       "es7"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
