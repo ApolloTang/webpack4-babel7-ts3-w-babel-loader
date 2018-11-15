@@ -9,8 +9,8 @@ module.exports = ({env=[], mode='production'}={env:[], mode:'production'}) => {
       port: 9090
     },
     devtool: 'inline-source-map',
-    // entry: './src/index',
-    entry: './src/ts-entrypoint',
+    entry: './src/index',
+    // entry: './src/ts-entrypoint',
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist')

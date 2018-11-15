@@ -8,5 +8,6 @@ console.log('somets: ', somets)
 import somejs from './somejs.js';
 console.log('somejs: ', somejs())
 
-
+console.log('xxxx')
+import useLodash from './use-lodash.ts';
 
